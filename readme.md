@@ -1,2 +1,5 @@
-# I tried to compile some cool HTML stuff to this repo
+# Compilation of some cool HTML Stuff
 
+## Working with <input>
+- [x] OTP Autocomplete
+- [x] Telephone Pattern

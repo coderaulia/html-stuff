@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Pattern</title>
+  </head>
+
+  <body>
+    <h2>Pattern for telephone input format</h2>
+    <form>
+      <label for="telpon">xxx-xxx-xxxx pattern</label>
+      <input type="tel" id="telpon" name="telpon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br /><br />
+
+      <label for="telpon">xxxx-xxxx-xxxx pattern</label>
+      <input type="tel" id="hp" name="hp" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"><br><br>
+
+      <label for="telpon">12 digit no space pattern</label>
+      <input type="tel" id="hp" name="hp" pattern="[0-9]{4}[0-9]{4}[0-9]{4}"><br><br>
+
+      <input type="submit" value="Send!">
+    </form>
+  </body>
+
+</html>
